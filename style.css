@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* to be removed */
+  /* border: 1px dotted green; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  position: relative;
+  max-width: 80rem;
+  height: 70rem;
+  margin: 5rem auto;
+  background-color: bisque;
+  border-radius: 5rem;
+}
+
+.btn {
+  border-radius: 100rem;
+  border: none;
+  background-color: rgb(5, 5, 173);
+  color: orange;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0.5rem 0.5rem 2rem 0.7rem #ddd;
+}
+
+.btn:active {
+  background-color: blue;
+  box-shadow: 0.5rem 0.5rem 2rem 0.3rem rgba(7, 7, 218, 0.541);
+}
+
+.again {
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+}
+
+.unknown-number {
+  position: absolute;
+  top: 10rem;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  height: 14rem;
+  width: 14rem;
+  background-color: yellow;
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #a55f04;
+}
+
+.num-to-guess-btn {
+  position: absolute;
+  top: 37rem;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-guess {
+  height: 4rem;
+  width: 15rem;
+  border-radius: 100rem;
+  border: 3px solid #666;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.messageFromTheGame {
+  height: 4rem;
+  width: 30rem;
+  border-radius: 100rem;
+  background-color: aquamarine;
+  color: #444;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.points-scores {
+  position: absolute;
+  top: 60rem;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, 0);
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.your-points {
+  color: red;
+}
+
+.highest-score {
+  color: green;
+}
